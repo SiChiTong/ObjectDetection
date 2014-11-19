@@ -1,1 +1,1 @@
-/home/ninja/APCObjectDetection/build/CMakeFiles/APCObjectDetection.dir
+/home/ninja/ObjectDetection/build/CMakeFiles/APCObjectDetection.dir

@@ -8,18 +8,18 @@
       <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\ros\;CMake Files\..\..\..\opt\ros\hydro\;CMake Files\..\..\..\opt\ros\hydro\share\;CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\;" />
       <Build>
       <Target title="all">
-         <Option working_dir="/home/ninja/APCObjectDetection/build" />
+         <Option working_dir="/home/ninja/ObjectDetection/build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="APCObjectDetection">
-         <Option output="/home/ninja/APCObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/ninja/APCObjectDetection/bin" />
+         <Option output="/home/ninja/ObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ninja/ObjectDetection/bin" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -36,15 +36,15 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="APCObjectDetection/fast">
-         <Option output="/home/ninja/APCObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/ninja/APCObjectDetection/bin" />
+         <Option output="/home/ninja/ObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ninja/ObjectDetection/bin" />
          <Option object_output="./" />
          <Option type="1" />
          <Option compiler="gcc" />
@@ -61,38 +61,38 @@
             <Add directory="/usr/local/include" />
          </Compiler>
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       <Target title="rebuild_cache">
-         <Option working_dir="/home/ninja/APCObjectDetection/build" />
+         <Option working_dir="/home/ninja/ObjectDetection/build" />
          <Option type="4" />
          <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <Build command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/ObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
          </MakeCommands>
       </Target>
       </Build>
-      <Unit filename="/home/ninja/APCObjectDetection/main.cpp">
+      <Unit filename="/home/ninja/ObjectDetection/main.cpp">
       </Unit>
-      <Unit filename="/home/ninja/APCObjectDetection/CMakeLists.txt">
+      <Unit filename="/home/ninja/ObjectDetection/CMakeLists.txt">
           <Option virtualFolder="CMake Files\" />
       </Unit>
-      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig-version.cmake">
+      <Unit filename="/home/ninja/ObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig-version.cmake">
           <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig.cmake">
+      <Unit filename="/home/ninja/ObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig.cmake">
           <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules.cmake">
+      <Unit filename="/home/ninja/ObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules.cmake">
           <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
       </Unit>
-      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules-relwithdebinfo.cmake">
+      <Unit filename="/home/ninja/ObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules-relwithdebinfo.cmake">
           <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
       </Unit>
    </Project>

@@ -44,10 +44,10 @@ CMAKE_COMMAND = /usr/bin/cmake
 RM = /usr/bin/cmake -E remove -f
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ninja/APCObjectDetection
+CMAKE_SOURCE_DIR = /home/ninja/ObjectDetection
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ninja/APCObjectDetection/build
+CMAKE_BINARY_DIR = /home/ninja/ObjectDetection/build
 
 #=============================================================================
 # Target rules for target CMakeFiles/APCObjectDetection.dir
@@ -56,7 +56,7 @@ CMAKE_BINARY_DIR = /home/ninja/APCObjectDetection/build
 CMakeFiles/APCObjectDetection.dir/all:
 	$(MAKE) -f CMakeFiles/APCObjectDetection.dir/build.make CMakeFiles/APCObjectDetection.dir/depend
 	$(MAKE) -f CMakeFiles/APCObjectDetection.dir/build.make CMakeFiles/APCObjectDetection.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ninja/APCObjectDetection/build/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ninja/ObjectDetection/build/CMakeFiles  1
 	@echo "Built target APCObjectDetection"
 .PHONY : CMakeFiles/APCObjectDetection.dir/all
 
@@ -66,9 +66,9 @@ all: CMakeFiles/APCObjectDetection.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/APCObjectDetection.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninja/APCObjectDetection/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninja/ObjectDetection/build/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/APCObjectDetection.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninja/APCObjectDetection/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ninja/ObjectDetection/build/CMakeFiles 0
 .PHONY : CMakeFiles/APCObjectDetection.dir/rule
 
 # Convenience name for target.

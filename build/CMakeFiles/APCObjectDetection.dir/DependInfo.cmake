@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/ninja/APCObjectDetection/main.cpp" "/home/ninja/APCObjectDetection/build/CMakeFiles/APCObjectDetection.dir/main.cpp.o"
+  "/home/ninja/ObjectDetection/main.cpp" "/home/ninja/ObjectDetection/build/CMakeFiles/APCObjectDetection.dir/main.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
