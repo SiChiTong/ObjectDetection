@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+   <FileVersion major="1" minor="6" />
+   <Project>
+      <Option title="APCObjectDetection" />
+      <Option makefile_is_custom="1" />
+      <Option compiler="gcc" />
+      <Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\opt\;CMake Files\..\..\..\opt\ros\;CMake Files\..\..\..\opt\ros\hydro\;CMake Files\..\..\..\opt\ros\hydro\share\;CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\;" />
+      <Build>
+      <Target title="all">
+         <Option working_dir="/home/ninja/APCObjectDetection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 all" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="APCObjectDetection">
+         <Option output="/home/ninja/APCObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ninja/APCObjectDetection/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ninja/fallrisk_ws/devel/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="APCObjectDetection/fast">
+         <Option output="/home/ninja/APCObjectDetection/bin/APCObjectDetection" prefix_auto="0" extension_auto="0" />
+         <Option working_dir="/home/ninja/APCObjectDetection/bin" />
+         <Option object_output="./" />
+         <Option type="1" />
+         <Option compiler="gcc" />
+         <Compiler>
+            <Add directory="/home/ninja/fallrisk_ws/devel/include" />
+            <Add directory="/opt/ros/hydro/include" />
+            <Add directory="/usr/include" />
+            <Add directory="/usr/include/c++/4.6" />
+            <Add directory="/usr/include/c++/4.6/backward" />
+            <Add directory="/usr/include/c++/4.6/x86_64-linux-gnu/." />
+            <Add directory="/usr/include/x86_64-linux-gnu" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include" />
+            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.6/include-fixed" />
+            <Add directory="/usr/local/include" />
+         </Compiler>
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 APCObjectDetection/fast" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      <Target title="rebuild_cache">
+         <Option working_dir="/home/ninja/APCObjectDetection/build" />
+         <Option type="4" />
+         <MakeCommands>
+            <Build command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 rebuild_cache" />
+            <CompileFile command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
+            <Clean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+            <DistClean command="/usr/bin/make -f &quot;/home/ninja/APCObjectDetection/build/Makefile&quot;  VERBOSE=1 clean" />
+         </MakeCommands>
+      </Target>
+      </Build>
+      <Unit filename="/home/ninja/APCObjectDetection/main.cpp">
+      </Unit>
+      <Unit filename="/home/ninja/APCObjectDetection/CMakeLists.txt">
+          <Option virtualFolder="CMake Files\" />
+      </Unit>
+      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig-version.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVConfig.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
+      </Unit>
+      <Unit filename="/home/ninja/APCObjectDetection/../../../opt/ros/hydro/share/OpenCV/OpenCVModules-relwithdebinfo.cmake">
+          <Option virtualFolder="CMake Files\..\..\..\opt\ros\hydro\share\OpenCV\" />
+      </Unit>
+   </Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,7 @@
+cmake_minimum_required(VERSION 2.8)
+project( APCObjectDetection )
+SET(EXECUTABLE_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+SET(LIBRARY_OUTPUT_PATH ${CMAKE_SOURCE_DIR}/bin)
+find_package( OpenCV REQUIRED )
+add_executable( APCObjectDetection main.cpp )
+target_link_libraries( APCObjectDetection ${OpenCV_LIBS} )
