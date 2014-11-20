@@ -13,7 +13,7 @@ Setup
   ```
   $ git clone https://github.com/ninja777/ObjectDetection.git
   ```
-3. Open the CMakeLists.txt file in QT to browse through or edit the code. Select <working folder>/build as the build folder for QT.
+3. Open the CMakeLists.txt file in QT to browse through or edit the code. Select [working folder]/build as the build folder for QT.
 
 Git Tutorial
 ------------
