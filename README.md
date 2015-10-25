@@ -1,7 +1,7 @@
 ObjectDetection
 ===============
 
-This repository hosts most of the code from OpenCV tutorials that was used for object detection used for group project of RBE 549 - Computer Vision. Actual stuff is at https://github.com/ninja777/moped, I'll delete this repository some day :P 
+This repository hosts most of the code from OpenCV tutorials that was used for object detection used for group project of RBE 549 - Computer Vision. Actual stuff is in a private repo at https://github.com/ninja777/moped. Drop me an email if you need access to MOPED code
 
 Setup
 -----
